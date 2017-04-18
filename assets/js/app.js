@@ -22,5 +22,16 @@ window.addEventListener("load", function(){
   };
   AddDiv(divs);
 
+  var divAbuelo = document.getElementsByClassName("div-abuelo");
+  var divPadre = document.getElementsByClassName("div-padre");
+  var divHijo = document.getElementsByClassName("div-hijo");
+
+    divAbuelo[0].style.background = "red";
+    divPadre[0].style.background = "purple";
+    divHijo[0].style.background = "yellow";
+
+    divAbuelo[1].style.background = "blue";
+    divPadre[1].style.background = "green";
+    divHijo[1].style.background = "black";
 
 })

@@ -33,5 +33,8 @@ window.addEventListener("load", function(){
     divAbuelo[1].style.background = "blue";
     divPadre[1].style.background = "green";
     divHijo[1].style.background = "black";
+    divHijo[1].style.position = "relative";
+    divHijo[1].style.bottom = "50px";
+    divHijo[1].style.right = "50px";
 
 })

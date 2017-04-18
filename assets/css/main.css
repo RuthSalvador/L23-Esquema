@@ -7,6 +7,9 @@
 .div-padre {
   height: 200px;
   width: 200px;
+  position: relative;
+  top: 50px;
+  left: 50px;
 }
 
 .div-hijo {
